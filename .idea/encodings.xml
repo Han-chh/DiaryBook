@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/AccountInputChecker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/CurrentUserUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/Diary.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/DiaryBook.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/DiaryBookUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/TempMessageBox.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/UserCreateUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/UserEnterUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/WritingUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/diarybook/main/passwordChangeUI.java" charset="UTF-8" />
+  </component>
+</project>
