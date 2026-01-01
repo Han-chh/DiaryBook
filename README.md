@@ -18,18 +18,11 @@ A multi-user diary application built in Java using Swing. Users can register, lo
 
 - Java Development Kit (JDK) 8 or higher
 
-## Installation and Running
+## Run
 
-1. Ensure JDK is installed on your system.
-2. Navigate to the project directory.
-3. Compile the source code:
-   ```
-   javac -d bin src/com/diarybook/main/*.java
-   ```
-4. Run the application:
-   ```
-   java -cp bin com.diarybook.main.DiaryBook
-   ```
+```bash
+java -jar DiaryBook.jar
+```
 
 ## Usage
 

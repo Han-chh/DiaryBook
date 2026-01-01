@@ -18,18 +18,11 @@
 
 - Java开发工具包（JDK）8或更高版本
 
-## 安装和运行
+## 运行
 
-1. 确保系统上安装了JDK。
-2. 导航到项目目录。
-3. 编译源代码：
-   ```
-   javac -d bin src/com/diarybook/main/*.java
-   ```
-4. 运行应用程序：
-   ```
-   java -cp bin com.diarybook.main.DiaryBook
-   ```
+```bash
+java -jar DiaryBook.jar
+```
 
 ## 使用方法
 
