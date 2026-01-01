@@ -17,6 +17,7 @@ A multi-user diary application built in Java using Swing. Users can register, lo
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
+- The jar package is packaged with Java 25.
 
 ## Run
 
