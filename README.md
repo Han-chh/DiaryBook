@@ -1,51 +1,39 @@
 # DiaryBook
 
-## Description
+A local Java desktop diary with user accounts, structured entry metadata, editing, pagination, and per-user persistence.
 
-A multi-user diary application built in Java using Swing. Users can register, login, and maintain personal diaries. The application saves user data and diary entries to files for persistence.
+[中文说明](README_zh.md)
+
+## Overview
+
+DiaryBook provides a focused personal writing workflow: register or sign in, create a dated entry, attach weather, mood, location, and theme information, then return to saved entries for review or editing.
+
+## Screenshot
+
+![A completed synthetic diary entry with weather, mood, location, title, and content](assets/screenshots/diarybook-entry.jpg)
+
+The screenshot comes from the running desktop application and uses disposable synthetic content.
 
 ## Features
 
-- User registration and login system
-- Multiple user support
-- Password-protected accounts
-- Diary entry creation and management
-- Data persistence using file serialization
-- Remember me functionality
-- User-friendly GUI interface
+- Local registration and login
+- Date, weather, mood, location, theme, and content fields
+- Entry creation, editing, deletion, and pagination
+- Local export
+- Serialized per-user storage
 
-## Requirements
+## Architecture
 
-- Java Development Kit (JDK) 8 or higher
-- The jar package is packaged with Java 25.
+Multiple Swing windows coordinate authentication, entry composition, and diary browsing. User and diary objects are serialized to local files.
 
 ## Run
+
+The committed artifact was verified with Java 25:
 
 ```bash
 java -jar DiaryBook.jar
 ```
 
-## Usage
+## Privacy notes
 
-1. Launch the application
-2. Register a new user or login with existing credentials
-3. Create and manage your diary entries
-4. Data is automatically saved when closing the application
-
-## Project Structure
-
-- `src/com/diarybook/main/DiaryBook.java`: Main application class
-- `src/com/diarybook/main/UserEnterUI.java`: Login/registration interface
-- `src/com/diarybook/main/DiaryBookUI.java`: Main diary interface
-- `src/com/diarybook/main/User.java`: User data model
-- `src/com/diarybook/main/Diary.java`: Diary entry model
-- `Users/`: Directory for storing user data files
-- `bin/`: Compiled class files
-
-## Data Storage
-
-User data and diary entries are stored in the `Users/` directory using Java object serialization.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues and pull requests.
+Diary data and remembered-user state are local files. Do not commit real diary content, credentials, `LASTUSER`, or personal `Users` data.
